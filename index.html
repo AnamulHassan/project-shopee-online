@@ -4,7 +4,855 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Shoppe Online</title>
+    <link
+      rel="shortcut icon"
+      href="img/brand-logo/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href=" 	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- ------------HEADER SECTION------------ -->
+    <header class="container-fuild bg-light-orange pb-5">
+      <section>
+        <!-- ------------NAVIGATION SECTION------------ -->
+        <nav class="navbar navbar-expand-lg bg-light-orange py-5">
+          <div class="container">
+            <img class="img-fluid" src="img/brand-logo/brand-logo.png" alt="" />
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link fs-5 fw-semibold text-secondary ms-lg-4 ms-md-4 ms-0 ms-sm-0 active"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link fs-5 fw-semibold text-secondary ms-lg-4 ms-md-4 ms-0 ms-sm-0"
+                    aria-current="page"
+                    href="#"
+                    >Product</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link fs-5 fw-semibold text-secondary ms-lg-4 ms-md-4 ms-0 ms-sm-0"
+                    aria-current="page"
+                    href="#"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link fs-5 fw-semibold text-secondary ms-lg-4 ms-md-4 ms-0 ms-sm-0"
+                    aria-current="page"
+                    href="#"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <!-- ------------HERO SECTION------------ -->
+      <section class="container">
+        <div
+          class="row d-flex align-items-center py-5 d-flex flex-column-reverse flex-column-sm-reverse flex-column-md-reverse flex-lg-row flex-xl-row flex-xxl-row"
+        >
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xl-6">
+            <div class="w-100 d-flex justify-content-center align-items-center">
+              <img class="w-75" src="img/nike-shoe.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xl-6 px-md-5 px-lg-5 px-xl-5"
+          >
+            <h1
+              class="display-2 display-sm-2 display-md-4 display-lg-4 display-xl-4 display-xxl-4 fw-bold text-uppercase text-center text-sm-cetter text-md-center text-lg-start text-xl-start"
+            >
+              <span class="text-orange-dark">Nike Air Max</span>
+              <span class="text-orange-darker">Flyknit Racer</span>
+            </h1>
+            <p
+              class="fs-5 fw-normal text-paragraph text-center text-sm-cetter text-md-center text-lg-start text-xl-start"
+            >
+              Paying homage to both heritage and innovation, we've blended 2
+              icons (old and new) to go beyond what's expected in the Nike Air
+              Max Flyknit Racer.
+            </p>
+            <div
+              class="d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start justify-content-xl-start"
+            >
+              <button
+                type="button"
+                class="fs-5 fw-semibold btn px-5 py-3 btn-warning bg-orange-dark text-white text-uppercase"
+              >
+                <img
+                  style="filter: invert(1); height: 30px; width: 30px"
+                  src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                />
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- ------------PRODUCT COLLECTION SECTION------------ -->
+    <section>
+      <h2
+        class="fs-semi-huge fw-semibold text-orange-darker text-center py-5 text-uppercase"
+      >
+        Explore Our Product Collection
+      </h2>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- item-1 -->
+            <div
+              class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row align-items-center px-5"
+            >
+              <div class="w-100 w-sm-100 w-md-75 w-lg-50 w-xl-50 w-xxl-50">
+                <img
+                  src="img/casual-men-shoes/casual-men-shoe-g-1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div
+                class="w-100 w-sm-100 w-md-75 w-lg-50 w-xl-50 w-xxl-50 px-1 px-sm-1 px-md-2 px-lg-5 px-xl-5 px-xxl-5 text-center text-sm-center text-md-center text-lg-start text-xl-start text-xxl-start"
+              >
+                <h2 class="fw-semibold text-orange-dark text-uppercase">
+                  We have excellent casual shoe collection
+                </h2>
+                <p class="fs-5 fw-normal text-paragraph lh-base">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  dolor ipsam voluptate dolore voluptas amet odio? Harum, ad!
+                  Praesentium, consequatur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- item-2 -->
+          <div class="carousel-item">
+            <div
+              class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row align-items-center px-5"
+            >
+              <div class="w-100 w-sm-100 w-md-75 w-lg-50 w-xl-50 w-xxl-50">
+                <img
+                  src="img/ladies-bags/ladies-bag-g-1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div
+                class="w-100 w-sm-100 w-md-75 w-lg-50 w-xl-50 w-xxl-50 px-1 px-sm-1 px-md-2 px-lg-5 px-xl-5 px-xxl-5 text-center text-sm-center text-md-center text-lg-start text-xl-start text-xxl-start"
+              >
+                <h2 class="fw-semibold text-orange-dark text-uppercase">
+                  We have excellent ladies bag collection
+                </h2>
+                <p class="fs-5 fw-normal text-paragraph lh-base">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  dolor ipsam voluptate dolore voluptas amet odio? Harum, ad!
+                  Praesentium, consequatur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- item-3 -->
+          <div class="carousel-item">
+            <div
+              class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row align-items-center px-5"
+            >
+              <div class="w-100 w-sm-100 w-md-75 w-lg-50 w-xl-50 w-xxl-50">
+                <img
+                  src="img/sandel-men/sandel-g-1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div
+                class="w-100 w-sm-100 w-md-75 w-lg-50 w-xl-50 w-xxl-50 px-1 px-sm-1 px-md-2 px-lg-5 px-xl-5 px-xxl-5 text-center text-sm-center text-md-center text-lg-start text-xl-start text-xxl-start"
+              >
+                <h2 class="fw-semibold text-orange-dark text-uppercase">
+                  We have excellent casual slipper collection
+                </h2>
+                <p class="fs-5 fw-normal text-paragraph lh-base">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  dolor ipsam voluptate dolore voluptas amet odio? Harum, ad!
+                  Praesentium, consequatur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- item-4 -->
+          <div class="carousel-item">
+            <div
+              class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row align-items-center px-5"
+            >
+              <div class="w-100 w-sm-100 w-md-75 w-lg-50 w-xl-50 w-xxl-50">
+                <img
+                  src="img/ladies-bags/ladies-bag-g-2.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div
+                class="w-100 w-sm-100 w-md-75 w-lg-50 w-xl-50 w-xxl-50 px-1 px-sm-1 px-md-2 px-lg-5 px-xl-5 px-xxl-5 text-center text-sm-center text-md-center text-lg-start text-xl-start text-xxl-start"
+              >
+                <h2 class="fw-semibold text-orange-dark text-uppercase">
+                  We have excellent ladies bag collection
+                </h2>
+                <p class="fs-5 fw-normal text-paragraph lh-base">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  dolor ipsam voluptate dolore voluptas amet odio? Harum, ad!
+                  Praesentium, consequatur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- item-5 -->
+          <div class="carousel-item">
+            <div
+              class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row align-items-center px-5"
+            >
+              <div class="w-100 w-sm-100 w-md-75 w-lg-50 w-xl-50 w-xxl-50">
+                <img
+                  src="img/ladies-bags/ladies-bag-g-3.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div
+                class="w-100 w-sm-100 w-md-75 w-lg-50 w-xl-50 w-xxl-50 px-1 px-sm-1 px-md-2 px-lg-5 px-xl-5 px-xxl-5 text-center text-sm-center text-md-center text-lg-start text-xl-start text-xxl-start"
+              >
+                <h2 class="fw-semibold text-orange-dark text-uppercase">
+                  We have excellent ladies bag collection
+                </h2>
+                <p class="fs-5 fw-normal text-paragraph lh-base">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  dolor ipsam voluptate dolore voluptas amet odio? Harum, ad!
+                  Praesentium, consequatur.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- ------------PRODUCT CART SECTION------------ -->
+    <section class="container-fluid bg-light-orange-2 pb-3">
+      <!-- ------------CASUAL SHOES SECTION------------ -->
+      <div class="container overflow-hidden text-center my-5">
+        <h2 class="fs-1 fw-bolder text-uppercase text-start py-4">
+          Casual Shoes
+        </h2>
+        <div class="row gy-5">
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img
+                class="w-75"
+                src="img/casual-men-shoes/casual-men-shoe-1.png"
+                alt=""
+              />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img
+                class="w-75"
+                src="img/casual-men-shoes/casual-men-shoe-2.png"
+                alt=""
+              />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img
+                class="w-75"
+                src="img/casual-men-shoes/casual-men-shoe-3.png"
+                alt=""
+              />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid bg-light-orange-2 pb-3">
+      <!-- ------------SNEAKERS SHOES SECTION------------ -->
+      <div class="container overflow-hidden text-center mb-5">
+        <h2 class="fs-1 fw-bolder text-uppercase text-start py-4">
+          Sneakers for men
+        </h2>
+        <div class="row gy-5">
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img class="w-75" src="img/sneakers/sneaker-men-1.png" alt="" />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img class="w-75" src="img/sneakers/sneaker-men-2.png" alt="" />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img class="w-75" src="img/sneakers/sneaker-men-3.png" alt="" />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid bg-light-orange-2 pb-3">
+      <!-- ------------LADIES SHOES SECTION------------ -->
+      <div class="container overflow-hidden text-center mb-5">
+        <h2 class="fs-1 fw-bolder text-uppercase text-start py-4">
+          Ladies shoes collection
+        </h2>
+        <div class="row gy-5">
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img
+                class="w-75"
+                src="img/ladies-shoes/ladies-shoe-1.png"
+                alt=""
+              />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img
+                class="w-75"
+                src="img/ladies-shoes/ladies-shoe-2.png"
+                alt=""
+              />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img
+                class="w-75"
+                src="img/ladies-shoes/ladies-shoe-3.png"
+                alt=""
+              />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid bg-light-orange-2 pb-3">
+      <!-- ------------KIDS SHOES SECTION------------ -->
+      <div class="container overflow-hidden text-center mb-5">
+        <h2 class="fs-1 fw-bolder text-uppercase text-start py-4">
+          Our kids shoes collection
+        </h2>
+        <div class="row gy-5">
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img class="w-75" src="img/kid-shoes/kid-shoe-5.png" alt="" />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img class="w-75" src="img/kid-shoes/kid-shoe-2.png" alt="" />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img class="w-75" src="img/kid-shoes/kid-shoe-4.png" alt="" />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid bg-light-orange-2 pb-3">
+      <!-- ------------MEN WALLETS  SECTION------------ -->
+      <div class="container overflow-hidden text-center mb-5">
+        <h2 class="fs-1 fw-bolder text-uppercase text-start py-4">
+          Our wallet collection for men
+        </h2>
+        <div class="row gy-5">
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img class="w-75" src="img/wallet/wallet-1.png" alt="" />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img class="w-75" src="img/wallet/wallet-2.png" alt="" />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img class="w-75" src="img/wallet/wallet-3.png" alt="" />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid bg-light-orange-2 pb-3">
+      <!-- ------------LADIES PURSES  SECTION------------ -->
+      <div class="container overflow-hidden text-center mb-5">
+        <h2 class="fs-1 fw-bolder text-uppercase text-start py-4">
+          Excellent purses collection for ladies
+        </h2>
+        <div class="row gy-5">
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img class="w-75" src="img/ladies-bags/ladies-bag-1.png" alt="" />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img class="w-75" src="img/ladies-bags/ladies-bag-2.png" alt="" />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-4 rounded-5 border"
+          >
+            <div class="p-3 rounded-5 bg-light-orange-3">
+              <img class="w-75" src="img/ladies-bags/ladies-bag-3.png" alt="" />
+            </div>
+            <div class="text-start">
+              <h3 class="fs-3 fw-semibold pt-3">Slip-On Casual Shoe</h3>
+              <p class="fs-5 fw-normal text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sed ad alias quidem eos repellat?
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <h2 class="fs-2 fw-bold text-orange-dark">$234</h2>
+                <button
+                  type="button"
+                  class="fs-6 fw-semibold btn px-2 py-2 btn-warning bg-orange-dark text-white text-uppercase rounded-4"
+                >
+                  <img
+                    style="filter: invert(1); height: 30px; width: 30px"
+                    src="https://img.icons8.com/sf-regular-filled/48/000000/shopping-cart.png"
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
